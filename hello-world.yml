@@ -6,7 +6,7 @@ resources:
     branch: main
 
 jobs:
-- name: hello-world-job-8
+- name: hello-world-job-16
   plan:
   - get: repo
     trigger: true   # tell Concourse to trigger this job when new versions are emitted
@@ -23,6 +23,7 @@ jobs:
       - name: repo
       params:
         EMAIL: sshah@cargurus.com
+        GIT_AUTHOR_NAME: SanketShah-21 
       run:
         path: sh
         args:
