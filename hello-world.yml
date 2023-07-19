@@ -4,14 +4,6 @@ resources:
   source:
     uri: https://github.com/SanketShah-21/ConcourseTest.git
     branch: main
-    private_key: |  
-      -----BEGIN OPENSSH PRIVATE KEY-----
-      b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
-      QyNTUxOQAAACAE3a5F1BtT7DdIEbv+3NdSBVUdwWxc6bsVWZVlxz1AwwAAAJj7vXd8+713
-      fAAAAAtzc2gtZWQyNTUxOQAAACAE3a5F1BtT7DdIEbv+3NdSBVUdwWxc6bsVWZVlxz1Aww
-      AAAEAB3NKrZ82gqa8aZNrLb7Pj+F7hRUdYIAWpMgGdnXICZQTdrkXUG1PsN0gRu/7c11IF
-      VR3BbFzpuxVZlWXHPUDDAAAAEnNzaGFoQGNhcmd1cnVzLmNvbQECAw==
-      -----END OPENSSH PRIVATE KEY-----
 
 jobs:
 - name: hello-world-job-8
